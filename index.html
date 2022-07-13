@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body.debug .container,
+      body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+      }
+
+      body.debug *.row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+      }
+
+      body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+      }
+    </style>
+  </head>
+  <body class="debug">
+    <section class="container-fluid heroImg text-light">
+      <!-- SECTION -->
+      <nav class="" id="headpage">
+        <div class="row bg-secondary">
+          <div class="col-3 offset-2">109leads</div>
+          <a href="#features" class="col-2 offset-2">featured</a>
+          <a href="#news " class="col-2">News</a>
+        </div>
+      </nav>
+      <header class="">
+        <section class="row justify-content-center py-5 facePage">
+          <div class="col-9"></div>
+          <h2 class="col-4 text-dark py-5">
+            Your job, <span class="fw-bold">Our News</span>
+          </h2>
+          <div class="col-6"></div>
+          <div class="col-9"></div>
+          <p class="col-4 text-dark fw-bold">
+            The best Lorem Ipsum Generator in all the sea! Heave this scurvy
+            copyfiller fer yar next adventure and cajol yar clients into walking
+            the plank with ev'ry layout! Configure above, then get yer pirate
+            ipsum...own the high seas, arg!
+          </p>
+          <div class="col-6"></div>
+        </section>
+        <section class="row justify-content-center">
+          <div class="col-2">
+            <button class="btn btn-secondary rounded-pill my-4">
+              Download For Apple
+            </button>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-secondary rounded-pill my-4">
+              Download For Windows
+            </button>
+          </div>
+          <div class="col-6"></div>
+        </section>
+      </header>
+    </section>
+    <section class="container-fluid features midRoll">
+      <!-- SECTION -->
+      <div class="row justify-content-center py-5 justify-content-around">
+        <div class="text-center">
+          <h3 class="col-12" id="features">Features</h3>
+          <div class="col-10">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+              cum!
+            </p>
+          </div>
+        </div>
+        <!-- NOTE 3Features -->
+        <div class="col-3 text-center boxBorder">
+          <span class="fw-bold">your jobs</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, saepe?
+          </p>
+        </div>
+        <div class="col-3 text-center boxBorder">
+          <span class="fw-bold">read news</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem,
+            quo.
+          </p>
+        </div>
+        <div class="col-3 text-center boxBorder">
+          <span class="fw-bold">news about jobs</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+            temporibus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid justify-content-center">
+      <!-- SECTION -->
+      <div class="row" id="news">
+        <!-- NOTE video section -->
+        <div class="col-6 newsVid">
+          <p class="col-12 fw-bold miscText text-center">Play Video</p>
+        </div>
+        <div class="col-6 newsPic py-5">
+          <!-- NOTE News And Tidings -->
+
+          <h4 class="text-center col-12">news and tidings</h4>
+          <p class="col-7">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+            possimus sunt omnis tempore provident iure aspernatur numquam
+            voluptatum doloribus corporis. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Illum fugit, repudiandae provident
+            corrupti, autem corporis minima magni rem ut non dolorem reiciendis
+            veniam! Culpa, reiciendis?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Beatae explicabo assumenda dolores magnam unde
+            nesciunt odit commodi dicta exercitationem ad error asperiores,
+            consequuntur voluptatum facilis, quisquam consequatur ipsam corrupti
+            amet temporibus eaque tempora esse! Optio rem iure accusantium a
+            excepturi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid justify-content-center foot text-light">
+      <!-- SECTION -->
+      <!-- NOTE Footer -->
+      <div class="row">
+        <div class="col-12 fw-bold">jobs109</div>
+        <div class="col-4">
+          <p>123 fake street, fake city, imaginationland</p>
+        </div>
+        <div class="col-4 text-center">Logos</div>
+        <div class="col-4 text-center">Social Media</div>
+      </div>
+    </section>
+  </body>
+</html>

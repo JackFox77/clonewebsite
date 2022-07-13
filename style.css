@@ -1,0 +1,57 @@
+:root {
+  --backingColor: rgb(183, 183, 183);
+  --newsColor: rgb(255, 101, 24);
+  --footColor: rgb(79, 79, 79);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.midRoll {
+  min-height: 30vw;
+}
+
+.heroImg {
+  background-image: url(https://images.unsplash.com/photo-1585399000684-d2f72660f092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+.features {
+  background-color: var(--backingColor);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.facePage {
+  min-height: 40vw;
+}
+.newsVid {
+  background-image: url(https://images.unsplash.com/photo-1582192330302-b24e8ad458b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+.newsPic {
+  background-color: var(--newsColor);
+  min-width: 50%;
+  min-height: 50vw;
+}
+
+.foot {
+  background-color: var(--footColor);
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.miscText {
+  color: var(--backingColor);
+}
+
+.boxBorder {
+  background-color: rgb(197, 189, 189);
+  box-shadow: 0px 0px 15px gray;
+  outline: 2px;
+}
