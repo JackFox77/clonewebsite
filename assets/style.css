@@ -53,4 +53,13 @@ a {
 .boxBorder {
   background-color: rgb(197, 189, 189);
   box-shadow: 0px 0px 15px gray;
+  opacity: 75%;
+}
+
+textBox {
+  background-color: var(--backingColor);
+  border-radius: 15px;
+  opacity: 0;
+  min-height: 100%;
+  min-width: 100%;
 }
